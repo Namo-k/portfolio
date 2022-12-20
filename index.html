@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="Namodacane Kaliamoorthy" />
+        <meta name="description" content="Ce site web est un E-Portfolio, on peut y retrouver ma biographie, mes compétences, mes loisirs, mon parcours professionnels, mes différents projets terminés et mon CV. Vous pouvez aussi me contacter." />
+
+        <title>ePortfolio</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+        <link rel="stylesheet" type="text/css" href="css_bs/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/stylel.css">
+        <link rel="stylesheet" type="text/css" href="css/styleh.css">
+    </head>
+    <body>
+       <!---------------------------------------------------------- CREATION DE L'ENTETE ------------------------------------------------------------>
+       <header>
+            <!------------------------------------------------------ CREATION DE LA NAVBAR ----------------------------------------------------------->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Mon E-Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#aboutMe" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    A propos de moi
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pageAboutMe.html#pAboutMe">Biographie</a></li>
+                                <li><a class="dropdown-item" href="pageAboutMe.html#comp2">Competences</a></li>
+                                <li><a class="dropdown-item" href="pageAboutMe.html#lois2">Loisirs</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#experience" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mes Expériences
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pageExperience.html#pExp">Mon parcours</a></li>
+                                <li><a class="dropdown-item" href="pageExperience.html#proj2">Mes projets</a></li>
+                                <li><a class="dropdown-item" href="pageExperience.html#cv2">Mon CV</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item" id="separation">
+                                
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="livreOr.html">Livre d'or</a>
+                            </li>
+                            
+                        </ul>
+                  </div>
+                </div>
+            </nav>
+            <!--------------------------------------------------------- FIN DE LA NAVBAR -------------------------------------------------------------->
+            
+            
+            <!---------------------------------------------------------- LANDING PAGE ----------------------------------------------------------------->
+            <div id="landingPage">
+                <h1>Bonjour,<br>Bienvenue sur mon ePorfolio.<br><br>Je vous souhaite une agréable visite.</h1>
+                <p>La réussite c’est la victoire de l’avoir fait soi-même</p>
+                <div class="footerPart">
+                    <div><p><a href="#aboutMe">Visiter le site</a></p></div>
+                    <div><a href="#aboutMe"><img src="images/fleche.png" alt="fleche bas"></a></div>
+                </div>
+            </div>
+            <!--------------------------------------------------------- FIN LANDING PAGE ------------------------------------------------------------->  
+        </header>
+        <!----------------------------------------------------- FIN DE L'ENTETE ------------------------------------------------------------------->
+        <!----------------------------------------------------- DEBUT PART A PROPOS DE MOI -------------------------------------------------------->
+        <section id="aboutMe">
+            <div class="traitH"></div>
+            <p class="title">Qui Suis-Je ?</p>
+            <div class="traitB"></div>
+            <div id="containerAboutMe">
+                <div class="cardPartAboutMe">
+                    <div class="cardBodyPartAboutMe">
+                        <div class="cardHeadPartAboutMe">
+                            <a href="pageAboutMe.html#pAboutMe">Ma biographie</a>
+                        </div>
+                        <div class="cardDescriptionPartAboutMe">
+                            <p>Je suis le jeune fondateur de ce site. Je voulais créer un site où je pourrais montrer mes talents. Je suis...</p>
+                        </div>
+                        <div class="cardFooterPartAboutMe">
+                            <div class="cardButtonPartAboutMe">
+                                <a href="pageAboutMe.html#pAboutMe">En savoir plus</a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="cardPartAboutMe">
+                    <div class="cardBodyPartAboutMe">
+                        <div class="cardHeadPartAboutMe">
+                            <a href="pageAboutMe.html#comp2">Mes Compétences</a>
+                        </div>
+                        <div class="cardDescriptionPartAboutMe">
+                            <p>Découvrez mes compétences acquises lors de ma longue vie. Vous allez être étonné par mes...</p>
+                        </div>
+                        <div class="cardFooterPartAboutMe">
+                            <div class="cardButtonPartAboutMe">
+                                <a href="pageAboutMe.html#comp2">En savoir plus</a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="cardPartAboutMe">
+                    <div class="cardBodyPartAboutMe">
+                        <div class="cardHeadPartAboutMe">
+                            <a href="pageAboutMe.html#lois2">Mes Loisirs</a>
+                        </div>
+                        <div class="cardDescriptionPartAboutMe">
+                            <p>Découvrez les activités que je fais en dehors du domaine de l'informatique. J'ai fait par exemple...</p>
+                        </div>
+                        <div class="cardFooterPartAboutMe">
+                            <div class="cardButtonPartAboutMe">
+                                <a href="pageAboutMe.html#lois2">En savoir plus</a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="footerPart">
+                <div><p><a href="#experience">Continuer la visite</a></p></div>
+                <div><a href="#experience"><img src="images/fleche.png" alt="fleche bas"></a></div>
+            </div>
+        </section>
+        <!----------------------------------------------------- FIN PART A PROPOS DE MOI ------------------------------------------------------------->
+        <!----------------------------------------------------- DEBUT PART EXPERIENCE ---------------------------------------------------------------->
+        <section id="experience">
+            <div class="traitH"></div>
+            <p class="title">Mes expériences</p>
+            <div class="traitB"></div>
+            <!------------------------------------------------- DEBUT PART MON PARCOURS ---------------------------------------------------------------->
+            <article id="parcours">                      
+                <div class="header">
+                    <h2 class="h2">Mon Parcours</h2>
+                    <p class="p">Découvrez mon parcours via cette magnifique frise chronologique fait maison</p>
+                </div>
+        
+                <div class="timelineContainer">
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2018-2019</p>
+                            <p class="text">Classe de troisième<br>J'ai eu mon brevet des collèges avec mention très bien.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2019-2020</p>
+                            <p class="text">Classe de Seconde GT: Decouverte de ma passion pour l'informatique</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2020-2021</p>
+                            <p class="text">Classe de 1er STI2D<br>Apprentissage les bases de l'algorithmie</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2020-2021</p>
+                            <p class="text">Premier pas dans l'informatique : Creation d'app et site web</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2021-2022</p>
+                            <p class="text">Classe Tle STI2D<br>Création de plusieurs site web et de mini-jeux.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2021-2022</p>
+                            <p class="text">J'ai eu mon Bac sti2d mention très bien<br>Création de plusieurs site web et plus </p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2022-2023</p>
+                            <p class="text">Première BUT INFO<br>Découverte en profondeur de l'informatique</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step mb-0">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2022-2023</p>
+                            <a href="pageExperience.html#pExp"><p class="text" id="plusParcours">En savoir plus.<br>Plus de détails ici.</p></a>
+                        </div>
+                    </div>
+                </div>
+        
+            </article>
+            <!------------------------------------------------------ FIN PART MON PARCOURS ----------------------------------------------------->
+            <!------------------------------------------------------ DEBUT PART MES PROJETS ---------------------------------------------------->
+            <article id="projets">                      
+                <div class="header">
+                    <h2 class="h2">Mon Projets</h2>
+                    <p class="p">Découvrez mes projets via ce magnifique carousel fait maison</p>
+                </div>
+                <div id="bodyCarrousel">
+                    <div id="carrousel">
+                        <div id="containerCarrousel">
+                            <div class="containerCard">
+                                <div class="card">
+                                    <div class="cardBody">
+                                        <div class="cardHead">
+                                            <div class="cardIcons"><a href="pageExperience.html#proj2"><img src="images/htmlCssColored-logo.png" alt="logo"></a></div>
+                                            <div class="cardTitle"><a href="pageExperience.html#proj2"><h2>Namformatic</h2></a></div>
+                                        </div>
+                                        <div class="cardDescription">
+                                            <p>Le site Namformatic a été créé lors de mes grandes vacances. <br> Ce site est une de mes...</p>
+                                        </div>
+                                        <div class="cardFooter">
+                                            <div class="cardButton">
+                                                <a href="pageExperience.html#proj2">En savoir plus</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="containerCard">
+                                <div class="card">
+                                    <div class="cardBody">
+                                        <div class="cardHead">
+                                                <div class="cardIcons"><a href="pageExperience.html#proj2"><img src="images/php-logo.png" alt="php"></a></div>
+                                                <div class="cardTitle"><a href="pageExperience.html#proj2"><h2>La Todo list NK</h2></a></div>
+                                        </div>
+                                        <div class="cardDescription">
+                                                <p>Le site La Todo list NK a été créé pendant mes pauses de l'année de terminale...</p>
+                                        </div>
+                                        <div class="cardFooter">
+                                                <div class="cardButton">
+                                                    <a href="pageExperience.html#proj2.html">En savoir plus</a>
+                                                </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="containerCard">
+                                <div class="card">
+                                    <div class="cardBody">
+                                        <div class="cardHead">
+                                                <div class="cardIcons"><a href="pageExperience.html#proj2"><img src="images/java-logo.png" alt="html"></a></div>
+                                                <div class="cardTitle"><a href="pageExperience.html#proj2"><h2>Le Morpion</h2></a></div>
+                                        </div>
+                                        <div class="cardDescription">
+                                                <p>Le Morpion a été créé aussi dans mon année de terminale durant mon temps libre...</p>
+                                        </div>
+                                        <div class="cardFooter">
+                                                <div class="cardButton">
+                                                    <a href="pageExperience.html#proj2">En savoir plus</a>
+                                                </div>
+                                        </div> 
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="containerCard">
+                                <div class="card">
+                                    <div class="cardBody">
+                                        <div class="cardDescription">
+                                                <p class="plusProjet"><a href="pageExperience.html#proj2">Découvrir tous mes projets créés plus en détail avec leurs aperçus </a></p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+        
+                        <img src="images/fleche.png" class="bouton" id="d">
+                        <img src="images/fleche.png" class="bouton" id="g">
+                    </div>
+                </div>
+                    <!-- Script JS pour le carrousel -->
+                    <script>
+                        document.body.onload=function(){
+                            nbr=4;
+                            p=0;
+                            container=document.getElementById("containerCarrousel");
+                            g=document.getElementById("g");
+                            d=document.getElementById("d");
+                            container.style.width=(440*nbr)+"px";
+                            afficherMasquer();
+                        }
+                        g.onclick=function(){
+                            if(p>-nbr+1)
+                            p--;
+                            container.style.transform="translate("+p*440+"px)";
+                            container.style.transition="all 0.5s ease";
+                            afficherMasquer();
+                        }
+                        d.onclick=function(){
+                            if(p<0)
+                            p++;
+                            container.style.transform="translate("+p*440+"px)";
+                            container.style.transition="all 0.5s ease";
+                            afficherMasquer();
+                        }
+                        function afficherMasquer(){
+                            if(p==-nbr+1)
+                                g.style.visibility="hidden";
+                            else
+                                g.style.visibility="visible";
+                            if(p==0)
+                                d.style.visibility="hidden";
+                            else
+                                d.style.visibility="visible";
+                        }
+                    </script>
+                <div class="footerPart">
+                    <div><p><a href="#contact">Me Contacter</a></p></div>
+                    <div><a href="#contact"><img src="images/fleche.png" alt="fleche bas"></a></div>
+                </div>
+            </article>
+            <!--------------------------------------------------------- FIN PART MES PROJETS -------------------------------------------------------->
+        </section>
+        <!------------------------------------------------------------- FIN PART EXPERIENCE --------------------------------------------------------->
+        <!------------------------------------------------------------- DEBUT PART CONTACT ---'------------------------------------------------------>
+        <section id="contact">
+            <div class="traitH"></div>
+            <p class="title">Contact</p>
+            <div class="traitB"></div>
+            <div class="header">
+                <h2 class="h2">Formulaire de contact</h2>
+                <p class="p">Vous pouvez me contacter via ce formulaire</p>
+                <button class="openButton" onclick="openForm()"> Ouvrir le formulaire </button>
+            </div>
+            <article class="formPopup" id="formulaire">
+                
+                <form class="formContainer">
+                    <h2>Me contacter</h2>
+                    <label for="name">Nom</label><br>
+                    <input type="text"  placeholder="Veuillez saisir votre nom" name="name" required>
+
+                    <label for="email">E-mail</label><br>
+                    <input type="text"  placeholder="Veuillez saisir votre e-mail" name="email" required>
+                    
+                    <label for="message">Votre Message</label><br>
+                    <textarea placeholder="Veuillez saisir votre message" name="message" cols="62" rows="5" required></textarea>
+                    <div>
+                        <button class="btn" type="submit"> Envoyer </button>
+                        <button class="btnCancel" type="button" onclick="closeForm()"> Annuler </button>
+                    </div>
+                </form>
+            </article>
+            <script>
+                function openForm(){
+                    document.getElementById("formulaire").style.visibility="visible";
+                }
+                
+                function closeForm(){
+                    document.getElementById("formulaire").style.visibility="hidden";
+                }
+            </script>
+           <div id="titleContact">
+            <h2 class="h2">Différents moyens de contacts</h2>
+        </div>
+        <article id="spaceContact">
+            <div class="contactMethod">
+                <div class="contactMethodIcon"><a href="https://discord.gg/jqEm6q5egN"><img id="discord"src="images/discord.png" alt="icone discord"></a></div>
+                <div class="contactMethodText"><a href="https://discord.gg/jqEm6q5egN">Discord</a></div>
+            </div>
+            <div class="contactMethod">
+                <div class="contactMethodIcon"><a href="mailto:namodacane.kaliamorthy@etu.u-paris.fr"><img id="email" src="images/email.png" alt="icone email"></a></div>
+                <div class="contactMethodText"><a href="mailto:namodacane.kaliamorthy@etu.u-paris.fr">Email</a></div>
+            </div>
+        </div>
+        </article>
+        </section>
+        <!------------------------------------------------------------- FIN PART CONTACT -------------------------------------------------------------------------->
+        <!------------------------------------------------------------- DEBUT FOOTER ------------------------------------------------------------------------------>
+        <footer>
+            <p><a href="#"> © Mon E-Portfolio</a> | 2022 - Tous droits reservés | Créé lors de mon année à l'IUT de Paris</p>
+        </footer>
+        <!------------------------------------------------------------- FIN FOOTER -------------------------------------------------------------------------------->
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	    
+    </body>
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="Namodacane Kaliamoorthy" />
+        <meta name="description" content="Ce site web est un E-Portfolio, on peut y retrouver ma biographie, mes compétences, mes loisirs, mon parcours professionnels, mes différents projets terminés et mon CV. Vous pouvez aussi me contacter." />
+
+        <title>A propos de moi</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+        <link rel="stylesheet" type="text/css" href="css_bs/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/stylel.css">
+        <link rel="stylesheet" type="text/css" href="css/styleh.css">
+    </head>
+    <body>
+        <!---------------------------------------------------------- CREATION DE L'ENTETE ------------------------------------------------------------>
+        <header>
+            <!------------------------------------------------------ CREATION DE LA NAVBAR ----------------------------------------------------------->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Mon E-Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html" >Accueil</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#aboutMe" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    A propos de moi
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pageAboutMe.html#pAboutMe">Biographie</a></li>
+                                <li><a class="dropdown-item" href="pageAboutMe.html#comp2">Compétences</a></li>
+                                <li><a class="dropdown-item" href="pageAboutMe.html#lois2">Loisirs</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#experience" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mes Expériences
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pageExperience.html#pExp">Mon parcours</a></li>
+                                <li><a class="dropdown-item" href="pageExperience.html#proj2">Mes projets</a></li>
+                                <li><a class="dropdown-item" href="pageExperience.html#cv2">Mon CV</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item" id="separation">
+                                
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="livreOr.html">Livre d'or</a>
+                            </li>
+                            
+                        </ul>
+                  </div>
+                </div>
+            </nav>
+            <!--------------------------------------------------------- FIN DE LA NAVBAR -------------------------------------------------------------->
+            <!---------------------------------------------------------- LANDING PAGE ----------------------------------------------------------------->
+            <div id="landingPage">
+                <h1>Si vous êtes sur cette page,<br> <br>c'est que vous voulez en savoir plus sur moi. <br><br>Decouvrez tous mes secrets ici</h1>
+                <p>La réussite c’est la victoire de l’avoir fait soi-même</p>
+                <div class="footerPart">
+                    <div><p><a href="#pAboutMe">Cliquez ici</a></p></div>
+                    <div><a href="#pAboutMe"><img src="images/fleche.png" alt="fleche bas"></a></div>
+                </div>
+            </div>
+            <!---------------------------------------------------------- FIN LANDING PAGE ------------------------------------------------------------->
+        </header>   
+        <!----------------------------------------------------- FIN DE L'ENTETE ------------------------------------------------------------------->
+
+        <!----------------------------------------------------- DEBUT DE LA PARTIE A PROPOS DE MOI ------------------------------------------------>
+        <section id="pAboutMe">
+
+            <div class="traitH"></div>
+            <h1 class="title">A propos de moi</h1>
+            <div class="traitB"></div>
+
+            <!----------------------------------------------------- DEBUT BIOGRAPHIE ----------------------------------------------------------------->
+            <article id="bio">
+                <div class="headerAboutMe">
+                    <img src="images/biographie.png" alt="competences">
+                    <h2 class="title2">Ma biographie</h2>
+                </div>
+                
+                <div id="content">
+                    <img src="images/informaticien1.png" alt="informaticien">
+                    <p>
+                    Je suis le jeune fondateur de ce site. Je voulais créer un site où je pourrais montrer <span class="surligne">mes talents</span>. 
+                    Je suis <span class="souligne">Namodacane KALIAMOORTHY</span> et j'ai 18 ans. <span class="gras">Etudiant de l'université Paris Cité à l'IUT de Paris Rives de Seine.</span> J'etudie l'informatique pour devenir ensuite un grand ingénieur.
+                    Pour l'instant je découvre les différents domaine de l'informatique pour ensuite choisir ma voie. Pour l'instant, j'aime bien le <span class="gras">développement web</span> mais depuis que
+                    j'ai découvert le <span class="gras">C</span> un langage de programmation, c'est devenu un de <span class="souligne">mes langages préférés</span>. J'aime aussi étudié l'architecture des ordinateurs mais ce n'est pas ce que je veux faire plus
+                    tard. Pour l'instant je vais me concentrer sur mes deux passions dans le domaine de l'informatique c'est à dire <span class="gras" id="comp2">la programmation et le developpement web</span>.
+                    </p>                 
+                </div>    
+            </article>
+            <!----------------------------------------------------- FIN BRIOGRAPHIE ------------------------------------------------------------------>
+            <!----------------------------------------------------- DEBUT COMPETENCE ----------------------------------------------------------------->
+            <article id="competence">
+                <div class="headerAboutMe">
+                    <img src="images/competences.png" alt="competences">
+                    <h2 class="title2">Mes Compétences</h2>
+                </div>
+                
+                <p>
+                    Vous pouvez retrouvez toutes mes compétences ci-dessous.
+                </p>
+
+                <div id="tech">
+                    <div class="header">
+                        <img src="images/code.png" alt="competences">
+                        <h3 class="title3">Compétences techniques</h3>
+                    </div>
+                    <div class="labelProgress"><p>HTML</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    <div class="labelProgress"><p>CSS</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    <div class="labelProgress"><p>BOOTSTRAP</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    <div class="labelProgress"><p>PHP</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    <div class="labelProgress"><p>MYSQL</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    <div class="labelProgress"><p>C</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    <div class="labelProgress"><p>JAVASCRIPT</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                    <div class="labelProgress"><p>JAVA</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                        </div>
+                </div>
+
+                <div id="langue">
+                    <div class="header">
+                        <img src="images/langues.png" alt="competences">
+                        <h3 class="title3">Langues</h3>
+                    </div>
+                    <div class="labelProgress"><p>Français</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    <div class="labelProgress"><p>Anglais</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    <div class="labelProgress"><p>Tamil</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    <div class="labelProgress"><p>Espagnol</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                </div>
+
+                <div id="outil">
+                    <div class="header">
+                        <img src="images/soutien-technique.png" alt="competences">
+                        <h3 class="title3">Outils</h3>
+                    </div>
+
+                    <div class="labelProgress"><p>WINDOWS</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" aria-label="Success example" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                    <div class="labelProgress"><p>Linux</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-label="Success example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                    <div class="labelProgress"><p>MACOS</p></div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                    <div class="labelProgress"><p>Excel</p></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success " role="progressbar" aria-label="Success example" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                    <div class="labelProgress"><p>Word</p></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success " role="progressbar" aria-label="Success example" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                    <div class="labelProgress"><p>Powerpoint</p></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success " role="progressbar" aria-label="Success example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+
+                    <div class="labelProgress"><p>Photoshop</p> </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info " role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                    <div class="labelProgress"><p>Adobe pro</p></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info " role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+
+                </div>
+
+                <div id="qualite">
+                    <div class="header">
+                        <img src="images/haute-qualite.png" alt="competences">
+                        <h3 class="title3">Savoir être</h3>
+                    </div>
+                    
+                    <p>Mes <span class="souligne">qualités</span> sont :
+                        <ul>
+                            <li><img src="images/star.png" alt="star"> Etre Rigoureux</li>
+                            <li><img src="images/star.png" alt="star"> Etre Autonome</li>
+                            <li><img src="images/star.png" alt="star"> Etre Polyvalent</li>
+                            <li id="lois2"><img src="images/star.png" alt="star"> Etre Organisé</li>
+                        </ul>
+                    </p>
+                </div> 
+            </article>
+            <!----------------------------------------------------- FIN COMPETENCE ----------------------------------------------------------------->
+            <!----------------------------------------------------- DEBUT LOISIR ------------------------------------------------------------------->
+            <article id="loisir">
+
+                <div class="headerAboutMe">
+                    <img src="images/jeu.png" alt="competences">
+                    <h2 class="title2">Mes Loisirs</h2>
+                </div>
+
+                <!-- DEBUT TABLE-->
+                <div class="table-responsive">
+                    <table class="table table-bordered border-dark">
+                        <thead>
+                            <tr>
+                                <th colspan="4">Tableau récapitulatif de mes loisirs</th>
+                            </tr>
+                            <tr>    
+                                <th>Classement</th>
+                                <th>Type</th>
+                                <th>Titres/Nom/Top 3</th>
+                                <th>Taux d'engoument</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3">1</td>
+                                <td rowspan="3">Manga/Anime</td>
+                                <td>Moi, quand je me reincarne en Slime</td>
+                                <td rowspan="3">31%</td>
+                            </tr>
+                            <tr>
+                                <td>One Piece</td>
+                            </tr>
+                            <tr>
+                                <td>Dr Stone</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">2</td>
+                                <td rowspan="3">Web</td>
+                                <td>HTML</td>
+                                <td rowspan="3">15%</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Programmation</td>
+                                <td>C</td>
+                                <td>15%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td colspan="2">Documentaire</td>
+                                <td>6,7%</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">5</td>
+                                <td rowspan="3">Manger</td>
+                                <td>Eclair au chocolat</td>
+                                <td rowspan="3">6%</td>
+                            </tr>
+                            <tr>
+                                <td>Fraisier</td>
+                            </tr>
+                            <tr>
+                                <td>Tarte au pomme</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">6</td>
+                                <td rowspan="3">Jeux Video</td>
+                                <td>Clash Royale</td>
+                                <td>5.2%</td>
+                            </tr>
+                            <tr>
+                                <td>Brawl Stars</td>
+                                <td>5.1%</td>
+                            </tr>
+                            <tr>
+                                <td>Clash of clan</td>
+                                <td>5%</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td colspan="2">Musique</td>
+                                <td>4%</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td colspan="2">Cinema</td>
+                                <td>3%</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td colspan="2">Séries</td>
+                                <td>2%</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">10</td>
+                                <td rowspan="2">Voyages</td>
+                                <td>Inde</td>
+                                <td>1%</td>
+                            </tr>
+                            <tr>
+                                <td>Espagne</td>
+                                <td>1%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--FIN TABLE-->
+                <div id="detailsL">
+                    <div id="manga">
+                        <h3>Images/Extraits de mes animes préférés</h3>
+                        <div class="containerDetailsL">
+
+                            <div class="itemDL">
+                                <p>Mon AMV favorie de <br> Moi, quand je me reincarne en Slime</p>
+                                <video width="320" height="240" poster="images/slime.jpg" controls>
+                                    <source src="video/amvSlime.mp4" type=video/mp4>
+                                </video>
+                            </div>
+
+                            <div class="itemDL">
+                                <p>Un de mes extraits préféré de <br>One Piece</p>
+                                <video width="320" height="240" poster="images/mugiwara.jpg" controls>
+                                    <source src="video/OP.mp4" type=video/mp4>
+                                </video>
+                            </div>
+
+                            <div class="itemDL">
+                                <p>Mon AMV favorie de Dr Stone</p>
+                                <video width="320" height="240" poster="images/drstoneanime.png"controls>
+                                    <source src="video/amvDrStone.mp4" type=video/mp4>
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="musique">
+                        <h3>Mes quelques musiques préférées</h3>
+                        <div class="containerDetailsL">
+                            <div class="itemDL">
+                                <p>Opening <span class="souligne">Gurenge</span> de <span class="italique">Lisa</span> dans Demon Slayer</p>
+                                <video width="320" height="240" poster="images/demonSlayer.jpg" controls>
+                                    <source src="video/[Demon Slayer] opening_1 Gurenge.mp4" type=video/mp4>
+                                </video>
+                            </div>
+
+                            <div class="itemDL song">
+                                <h4>Mes nighcores préférés</h4>
+                                <p>Ascence - About You</p>
+                                <audio controls>
+                                    <source src="audio/Ascence - About You.mp3" type="audio/mp3">
+                                </audio>
+                                <p>Jo Cohen & BQ - Glowing At Night</p>
+                                <audio controls>
+                                    <source src="audio/Jo Cohen & BQ - Glowing At Night.mp3" type="audio/mp3">
+                                </audio>
+                                <p>Lauv - I'm so tired.mp3</p>
+                                <audio controls>
+                                    <source src="audio/Lauv - I'm so tired.mp3" type="audio/mp3">
+                                </audio>
+                            </div>
+
+                            <div class="itemDL">
+                                <p>Opening <span class="souligne">This game</span> de <span class="italique">Suzuki Konomi</span> dans No game No life</p>
+                                <video width="320" height="240" poster="images/ngnl.jpg" controls>
+                                    <source src="video/[No game no life] opening_1 This game.mp4" type=video/mp4>
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </article>
+            <!----------------------------------------------------- FIN LOISIR ----------------------------------------------------------------->
+        </section>
+        <!----------------------------------------------------- FIN DE LA PARTIE A PROPOS DE MOI -------------------------------------------------->
+        <!------------------------------------------------------------- DEBUT FOOTER ------------------------------------------------------------------------------>
+        <footer>
+            <p><a href="#"> © Mon E-Portfolio</a> | 2022 - Tous droits reservés | Créé lors de mon année à l'IUT de Paris</p>
+        </footer>
+        <!------------------------------------------------------------- FIN FOOTER -------------------------------------------------------------------------------->
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	    
+    </body>
+</html>

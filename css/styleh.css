@@ -1,0 +1,859 @@
+/********************************** DEBUT MODE TABLETTE ****************************/
+@media screen and (min-width: 600px) and (max-width: 1035px){ /*Mode tabette */
+    /********************** DEBUT LANDING PAGE *******************/
+    header > #landingPage{
+        padding-top: 120px;
+        background: url(../images/sky.jpg) no-repeat ;
+        background-size: cover;
+        height: 800px;
+    }
+    #landingPage > h1{
+        text-align: center;
+        font-size: 2em;
+        color:#0d5579;
+        padding: 0 10px 80px 10px;
+    }
+    #landingPage > p{
+        width: 80%;
+        height: 160px;
+        line-height: 80px;
+        margin: 20px auto 70px auto;
+        text-align: center;
+        color: white;
+        font-size: 2em;
+        font-style: italic;
+        font-weight: 400;
+        background-color: rgb(107, 150, 185);
+        opacity: 0.4;
+    }
+    .footerPart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 10px 0;
+        opacity: 0.8;
+    }
+    .footerPart a{
+        font-size: 1.6em;
+        color: rgb(63, 59, 59);
+    }
+    .footerPart img{
+        width: 30px;
+        height: 30px;
+        float: left;
+        filter: invert(50%);
+        padding: 0px 5px;
+        margin-top: 2px;
+    }
+    .footerPart:hover{
+        opacity: 1;
+        font-weight: 600;
+        transition: 0.2s ease-in;
+    }
+    /********************** FIN LANDING PAGE *******************/
+	/****************** PARTIE A PROPOS DE MOI *****************/
+    #aboutMe{
+        height: 1600px;
+    }
+    #aboutMe #containerAboutMe{
+        width: 50%;
+        height: 435px;
+        margin: 60px auto 0 auto;
+    }
+    #aboutMe .cardPartAboutMe{
+        width: 300px;
+        height: 400px;
+        position: relative;
+        background: #1A809D;
+        border: 1px solid #65A8D6;
+        box-sizing: border-box;
+        border-radius: 35px;
+        margin:20px 20px 20px 20px;
+        box-shadow: 1px 3px 3px rgb(69, 80, 198);
+    }
+    #aboutMe .cardBodyPartAboutMe{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        grid-gap: 10px;
+    }
+    #aboutMe .cardHeadPartAboutMe a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        text-transform: capitalize;
+        background-color: #0f404e;
+        border-radius: 35px 35px 0px 0px;
+        font-size: 1.4em;
+        color: white;
+    }
+    #aboutMe .cardDescriptionPartAboutMe p{
+        height : 200px;
+        font-size: 1.1em;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 40px;
+        text-align: center;
+    }
+    #aboutMe .cardButtonPartAboutMe{
+        padding: 0px 30px;
+    }
+    #aboutMe .cardButtonPartAboutMe a{
+        height: 45px;
+        font-size: 1.1em;
+        color: white;
+        background: #1BA2C8;
+        border-radius: 30px;
+        border: 1px solid #62B3EA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #aboutMe .cardButtonPartAboutMe:hover a{
+        background: #0e4757;
+        text-decoration:underline;
+    }
+    #aboutMe .footerPart{
+        margin-top: 900px;
+    }
+    /******************** FIN A PROPOS DE MOI ******************/
+    /******************** DEBUT EXEPERIENCE ********************/
+    #experience{
+        height: 1250px;
+    }
+    /******************** DEBUT PARCOURS ********************/
+    #parcours .header,#projets .header, #contact .header {
+        width: 100%;
+        height: 100px;
+        padding: 20px 0px;
+    }
+    #parcours .header .h2,#projets .header .h2, #contact .header .h2{
+        font-size: 2em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding: 10px 0px 10px 70px;
+        text-decoration: underline;
+    }
+    #parcours .header .p, #contact .header .p{
+        font-size: 1.3em;
+        color: #FFFFFF;
+        padding: 10px 0px 20px 70px;
+    }
+
+    /**DEBUT FRISE**/
+    .timelineContainer{
+        margin: 50px auto 0 auto;
+    }
+    
+    /**FIN FRISE**/
+
+    /******************** FIN PARCOURS ********************/
+    /******************** DEBUT PROJETS ********************/
+    #projets .header .p{
+        font-size: 1.3em;
+        color: white;
+        padding: 10px 0px 10px 70px;
+    }
+    /* Carrousel */
+    #bodyCarrousel{
+        margin: 50px auto 30px auto;
+    }
+    /* Fin Carrousel */
+    /******************** FIN PROJETS ********************/
+    /******************** FIN EXPERIENCE ********************/
+    /******************** DEBUT CONTACT ********************/
+    #contact{
+        padding-top: 80px;
+        height: 1350px;
+        background: url(../images/sky.jpg) no-repeat ;
+        background-size: cover;
+    }
+    #contact .header{
+        height: 170px;
+    }
+    /******************** FIN CONTACT ********************/
+    /******************** DEBUT FOOTER ********************/
+    footer p{
+        padding: 0 15px;
+        height: 50px;
+        font-size: 0.8em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #053745;
+        color: white;
+    }
+    footer a{
+        color: white;
+        padding-right: 5px;
+    }
+    /******************** FIN FOOTER ********************/
+
+    /********************************************************************* PAGE ABOUT ME ********************************************************/
+    #pAboutMe{
+        padding-top: 63px;
+        height: 6150px;
+        background: rgb(223, 204, 168);
+    }
+
+    #pAboutMe #loisir #detailsL{
+        height: 1800px;
+        margin: 50px 0;
+    }
+    #pAboutMe #loisir #detailsL .containerDetailsL{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+    #pAboutMe #loisir #detailsL #manga, #pAboutMe #loisir #detailsL #musique{
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    /********************************************************************* FIN PAGE ABOUT ME ****************************************************/
+    /********************************************************************* PAGE EXPERIENCE ********************************************************/
+    #pExp{
+        height: 8000px;
+    }
+    /********************************************************************* FIN EXPERIENCE ********************************************************/
+   
+}
+/********************************** FIN MODE TABLETTE ****************************/
+/********************************** DEBUT MODE TEL *******************************/
+@media screen and (max-width: 599px){ /*Mode Tel */
+    /********************** DEBUT LANDING PAGE *******************/
+    header > #landingPage{
+        padding-top: 120px;
+        background: url(../images/sky.jpg) no-repeat ;
+        background-size: cover;
+        height: 800px;
+    }
+    #landingPage > h1{
+        text-align: center;
+        font-size: 1.6em;
+        color:#0d5579;
+        padding: 0 10px 80px 10px;
+    }
+    #landingPage > p{
+        width: 80%;
+        height: 160px;
+        line-height: 80px;
+        margin: 20px auto 70px auto;
+        text-align: center;
+        color: white;
+        font-size: 1.8em;
+        font-style: italic;
+        font-weight: 400;
+        background-color: rgb(107, 150, 185);
+        opacity: 0.4;
+    }
+    .footerPart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 10px 0;
+        opacity: 0.8;
+    }
+    .footerPart a{
+        font-size: 1.6em;
+        color: rgb(63, 59, 59);
+    }
+    .footerPart img{
+        width: 30px;
+        height: 30px;
+        float: left;
+        filter: invert(50%);
+        padding: 0px 5px;
+        margin-top: 2px;
+    }
+    .footerPart:hover{
+        opacity: 1;
+        font-weight: 600;
+        transition: 0.2s ease-in;
+    }
+    /********************** FIN LANDING PAGE *******************/
+    /****************** PARTIE A PROPOS DE MOI *****************/
+    #aboutMe{
+        height: 1600px;
+    }
+    #aboutMe #containerAboutMe{
+        width: 70%;
+        height: 435px;
+        margin: 60px auto 0 auto;
+    }
+    #aboutMe .cardPartAboutMe{
+        width: 300px;
+        height: 400px;
+        position: relative;
+        background: #1A809D;
+        border: 1px solid #65A8D6;
+        box-sizing: border-box;
+        border-radius: 35px;
+        margin:20px 20px 20px 20px;
+        box-shadow: 1px 3px 3px rgb(69, 80, 198);
+    }
+    #aboutMe .cardBodyPartAboutMe{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        grid-gap: 10px;
+    }
+    #aboutMe .cardHeadPartAboutMe a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        text-transform: capitalize;
+        background-color: #0f404e;
+        border-radius: 35px 35px 0px 0px;
+        font-size: 1.4em;
+        color: white;
+    }
+    #aboutMe .cardDescriptionPartAboutMe p{
+        height : 200px;
+        font-size: 1.1em;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 40px;
+        text-align: center;
+    }
+    #aboutMe .cardButtonPartAboutMe{
+        padding: 0px 30px;
+    }
+    #aboutMe .cardButtonPartAboutMe a{
+        height: 45px;
+        font-size: 1.1em;
+        color: white;
+        background: #1BA2C8;
+        border-radius: 30px;
+        border: 1px solid #62B3EA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #aboutMe .cardButtonPartAboutMe:hover a{
+        background: #0e4757;
+        text-decoration:underline;
+    }
+    #aboutMe .footerPart{
+        margin-top: 900px;
+    }
+    /******************** FIN A PROPOS DE MOI ******************/
+    /******************** DEBUT EXEPERIENCE ********************/
+    #experience{
+        height: 1250px;
+    }
+    /******************** DEBUT PARCOURS ********************/
+    #parcours .header,#projets .header, #contact .header {
+        width: 100%;
+        height: 100px;
+        padding: 20px 0px;
+    }
+    #parcours .header .h2,#projets .header .h2, #contact .header .h2{
+        font-size: 2em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding: 10px 0px 10px 70px;
+        text-decoration: underline;
+    }
+    #parcours .header .p, #contact .header .p{
+        font-size: 1.3em;
+        color: #FFFFFF;
+        padding: 10px 0px 20px 70px;
+    }
+
+    /**DEBUT FRISE**/
+    .timelineContainer{
+        margin: 50px auto 0 auto;
+    }
+
+    /**FIN FRISE**/
+
+    /******************** FIN PARCOURS ********************/
+    /******************** DEBUT PROJETS ********************/
+    #projets .header .p{
+        font-size: 1.3em;
+        color: white;
+        padding: 10px 0px 10px 70px;
+    }
+    /* Carrousel */
+    #bodyCarrousel{
+        margin: 50px auto 30px auto;
+    }
+    #projets #carrousel{
+        border-radius: 15px;
+    
+        background: #184C6F ;
+        position: relative;
+        overflow: hidden;
+    }
+    #containerCarrousel{
+        width: 980px;
+        height: 280px;
+        display: flex;
+    }
+    .containerCard{
+        width: 450px;
+        height: 280px;
+        margin: 0;
+        padding: 15px 0 0 17px;
+        display: inline-block;
+        background-size: cover;
+    }
+    .bouton{
+        position: absolute;
+        width: 120px;
+        cursor: pointer;
+        top: 80px;
+        filter: invert(100%);
+    }
+    #g{
+        right: 0;
+        opacity: 0.4;
+        transform: rotate(270deg);
+        transition: all 0.3s ease;
+    }
+    #d{
+        left: 0;
+        opacity: 0.4;
+        transform: rotate(90deg);
+        transition: all 0.3s ease;
+    }
+    #g:hover{
+        transform: rotate(270deg) scale(1.1);
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+    #d:hover{
+        transform: rotate(90deg) scale(1.1);
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+    /* Formation carrousel cartes */
+    .card{
+        width: 350px;
+        height: 250px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #306588;
+        border: 1px solid #65A8D6;
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin:0px 10px 0px 10px;
+    }
+    .cardBody{
+        padding: 10px ;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        grid-gap: 10px;
+    }
+    .cardHead{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .cardIcons img{
+        width: 60px;
+        height: 60px;
+        display: block;
+    }
+    .cardTitle h2{
+        line-height: 1.3;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: white;
+        display: block;
+        margin-right: 50px;
+    }
+    .cardDescription p{
+        
+        width: 303px;
+        height : 93px;
+        font-size: 1.1em;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .cardDescription a{
+        color: white;
+    }
+    .cardFooter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardButton{
+        width: 300px;
+        height: 45px;
+        background: #104263;
+        border-radius: 30px;
+        border: 1px solid #62B3EA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardButton a{
+        font-size: 1.3em;
+        line-height: 30px;
+        color: white;
+    }
+    .cardButton:hover{
+        background: #1d5a83;
+    }
+    p.plusProjet{
+        font-family: Rochester;
+        font-size: 2em;
+        text-align: center;
+    }
+    p.plusProjet:hover{
+        text-decoration: underline;
+    }
+    
+    /* Fin Carrousel */
+    /******************** FIN PROJETS ********************/
+    /******************** FIN EXPERIENCE ********************/
+    /******************** DEBUT CONTACT ********************/
+    #contact{
+        padding-top: 63px;
+        height: 1350px;
+        background: url(../images/sky.jpg) no-repeat ;
+        background-size: cover;
+    }
+    #contact .header{
+        height: 200px;
+    }
+    /******************** DEBUT FORMULAIRE CONTACT ********************/
+    #formulaire{
+        height: 550px;
+        visibility: hidden;
+    }
+    #formulaire form{
+        width: 380px;
+        height: 450px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 15px;
+    }
+    #formulaire h2{
+        padding: 20px 0px;
+        font-size: 1.8em;
+        text-align: center;
+        color: white;
+        font-weight: 800;
+    }
+    #formulaire label{
+        color: rgb(69, 66, 66);
+        font-size: 1.1em;
+        text-transform: uppercase;
+    }
+    #formulaire input[type="text"]{
+        width: 100%;
+        height: 35px;
+        outline: none;
+        margin: 5px 0px 20px 0px;
+        background-color: transparent;
+        border-top: 0px ;
+        border-right: 0px ;
+        border-left: 0px ;
+        border-bottom: 1px solid white;
+        font-family: "Montserrat";
+
+    }
+    #formulaire input::placeholder{
+        color: white;
+        font-size: 1em;
+    }
+    #formulaire input{
+        color: white;
+        font-size: 1em;
+    }
+    #formulaire textarea::placeholder{
+        color: white;
+        font-size: 1em;
+    }
+    #formulaire textarea{
+        width: 100%;
+        height: 65px;
+        background-color: transparent;
+        color: white;
+        font-size: 1em;
+        margin: 15px 0 15px 0;
+        border-top: 1px solid white ;
+        border-right: 0px ;
+        border-left: 0px ;
+        border-bottom: 1px solid white;
+        font-family: "Montserrat";
+    }
+    #formulaire div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0px 0px 0px;
+    }
+    #formulaire button{
+        border-radius: 10px;
+        color: white;
+        font-size:1.1em;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width : 200px;
+        margin-bottom: 10px;
+        opacity: 0.8;
+    }
+    #formulaire .btn{
+        background-color: #4caf50;
+    }
+    #formulaire .btnCancel{
+        background-color: red;
+    }
+    #formulaire .btn:hover{
+        background-color: #3e8c40;
+    }
+    #formulaire .btnCancel:hover{
+        background-color: rgb(166, 21, 21);
+    }
+    /******************** FIN FORMULAIRE CONTACT **********************/
+    /******************** DEBUT MOYEN CONTACT ********************/
+    #spaceContact{
+        width:87%;
+        height: 320px;
+        margin : 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    #titleContact h2{
+        font-size: 2em;
+        color: white;
+        font-weight: 0;
+        text-transform: capitalize;
+        padding: 30px 0px 10px 70px;
+    }
+    .contactMethod{
+        width: 300px;
+        height: 200px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #0f7a9b;
+        border: 1px solid #65A8D6;
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin:0px 30px 0px 30px;
+        box-shadow: 0 0 14px rgba(0, 0 , 0, 0.3);
+    }
+    .contactMethodIcon #discord{
+        width: 60px;
+        height: 45px;
+    }
+    .contactMethodIcon #email{
+        width: 60px;
+        height: 60px;
+    }
+    .contactMethodIcon{
+        padding-bottom: 20px;
+    }
+    .contactMethodText a{
+        width: 100px;
+        font-size: 1.1em;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+    }
+    /******************** FIN MOYEN CONTACT ********************/
+    /******************** FIN CONTACT ********************/
+    /******************** DEBUT FOOTER ********************/
+    footer p{
+        height: 50px;
+        padding: 0 15px;
+        font-size: 0.6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #053745;
+        color: white;
+    }
+    footer a{
+        color: white;
+        padding-right: 3px;
+    }
+    /******************** FIN FOOTER ********************/
+
+
+
+    /********************************************************************* PAGE ABOUT ME ********************************************************/
+    #pAboutMe{
+        padding-top: 63px;
+        height: 6150px;
+        background: rgb(223, 204, 168);
+    }
+
+    #pAboutMe #loisir #detailsL{
+        height: 1800px;
+        margin: 50px 0;
+    }
+    #pAboutMe #loisir #detailsL #manga{
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
+        border: 1px solid white;
+        border-radius: 10px 10px 0 0;
+        margin: 50px 0px;
+
+    }
+    #pAboutMe #loisir #detailsL h3{
+        font-family: "Montserrat";
+        font-size: 1.6em;
+        color: #09252e;
+        padding: 20px 0px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+
+    }
+    #pAboutMe #loisir #detailsL .containerDetailsL{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+    #pAboutMe #loisir #detailsL .containerDetailsL .itemDL{
+        width: 350px;
+        height: 300px;
+        margin: 25px 10px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    #pAboutMe #loisir #detailsL .containerDetailsL .itemDL p{
+        text-align: center;
+        font-weight: bold;
+        font-size: 0.8em;
+        padding: 20px 0;
+    }
+    #pAboutMe #loisir #detailsL .containerDetailsL .itemDL {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    #pAboutMe #loisir #detailsL .containerDetailsL .song {
+        border-radius: 15px;
+        border: 1px white solid;
+    }
+    #pAboutMe #loisir #detailsL #musique{
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
+        border: 1px solid white;
+        border-radius: 10px 10px 0 0;
+        margin: 50px 0px;
+    }
+    
+    #pAboutMe #loisir #detailsL #musique .containerDetailsL .itemDL h4{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding-top: 15px;
+        text-decoration: underline;
+    }
+    #pAboutMe #loisir #detailsL #musique .containerDetailsL .itemDL p{
+        text-align: center;
+        font-weight: bold;
+        font-size: 0.8em;
+        padding: 15px 0;
+    }
+    /********************************************************************* FIN PAGE ABOUT ME ****************************************************/
+    /********************************************************************* PAGE EXPERIENCE ********************************************************/
+    #pExp{
+        height: 8200px;
+    }
+    /* Debut slider */
+    .slider{
+        width: 350px;
+        overflow: hidden;
+        box-shadow: 0 0 14px rgba(0, 0 , 0, 0.3);
+    }
+    .slides{
+        width: calc(350px * 3);
+        animation: glisse 15s infinite;
+    }
+    .slide img{
+        float: left;
+        width: 350px;
+        height: 180px;
+    }
+    /* Animation sliders */
+    @keyframes glisse {
+        0% {
+            transform: translate(0);
+        }
+        10%{
+            transform: translate(0);
+        }
+        25% {
+            transform: translate(-350px);
+        }
+        35%{
+            transform: translate(-350px);
+        }
+        50% {
+            transform: translate(-700px);
+        }
+        60%{
+            transform: translate(-700px);
+        }
+        75%{
+            transform: translate(-700px);
+        }
+        100% {
+            transform: translate(0);
+        }
+    }
+    /* Fin slider */
+    /********************************************************************* DEBUT CV **************************************************************/
+    #pExp #cv{
+        border: 1px solid black;
+        border-radius: 15px 0px 0px 15px;
+        height: 150px;
+    }
+
+    #pExp #cv a{
+        font-size: 1.2em;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+
+    /********************************************************************* FIN CV ***************************************************************
+    /********************************************************************* FIN EXPERIENCE ********************************************************/
+
+}
+
+/********************************** FIN MODE TEL *******************************/

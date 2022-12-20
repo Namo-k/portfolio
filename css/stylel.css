@@ -1,0 +1,1377 @@
+/*********************** Police *******************/
+@font-face{ font-family : "Risque"; src : url("../polices/Risque-Regular.ttf");}
+@font-face{ font-family : "Rochester"; src : url("../polices/Rochester-Regular.ttf");}
+@font-face{ font-family : "Montserrat"; src : url("../polices/Montserrat-Regular.ttf");}
+
+/*********************** Reset *******************/
+body, ul,p,img,a,br,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+body * {
+    box-sizing: content-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+body{
+    /* background: rgb(127, 127, 202); */
+    background: url(../images/sky.jpg);
+    background-size: cover;
+    font-family: "Montserrat";
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/**************************************************************************/
+.surligne{
+    background-color: yellow;
+}
+.souligne{
+    text-decoration: underline;
+}
+.gras{
+    font-weight: bold;
+}
+.italique{
+    font-style: italic;
+}
+/***************************************************************************/
+/* ********************************* NAVBAR ********************************/
+nav{
+    background-color: #1B4E5F;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-brand{
+    font-size: 1.5em;
+    font-family: "Rochester";
+    padding-left: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+nav .nav-link{
+    color : white;
+    margin: 0 10px;
+}
+nav .nav-link:hover{
+    color:#74caff;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+} 
+.navbar-expand-lg .navbar-nav {
+    align-items: center;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color:#74caff;
+}
+.nav-link:focus, .nav-link:hover {
+    color:#74caff;
+}
+#separation{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+.dropdown-menu{
+    width: 100%;
+}
+.dropdown-item{
+    width: 80%;
+}
+.navbar-brand:hover{
+    color: white;
+    transform: rotate(-5deg);
+    transition: 0.2s;
+}
+.navbar-toggler{
+    border: var(--bs-border-width) solid white;
+    color: white;
+}
+.navbar-toggler-icon{
+    filter: invert(100%);
+}
+/********************** FIN NAVBAR ***************************/
+/********************** DEBUT LANDING PAGE *******************/
+header > #landingPage{
+    padding-top: 180px;
+    background: url(../images/sky.jpg) no-repeat ;
+    background-size: cover;
+    height: 800px;
+}
+#landingPage > h1{
+    text-align: center;
+    font-size: 2.4em;
+    color:#0d5579;
+    padding-bottom: 80px;
+}
+#landingPage > p{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    margin: 20px 0px 70px 0px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 400;
+    background-color: rgb(107, 150, 185);
+    opacity: 0.4;
+}
+.footerPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    opacity: 0.8;
+}
+.footerPart a{
+    font-size: 1.6em;
+    color: rgb(63, 59, 59);
+}
+.footerPart img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    filter: invert(50%);
+    padding: 0px 5px;
+    margin-top: 2px;
+}
+.footerPart:hover{
+    opacity: 1;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+/********************** FIN LANDING PAGE *******************/
+/****************** PARTIE A PROPOS DE MOI *****************/
+#aboutMe{
+    padding-top: 63px;
+    height: 800px;
+    background: url(../images/sky.jpg) no-repeat ;
+    background-size: cover;
+}
+.traitH{
+    width: 112px;
+    height: 6px;
+    background: #FFFFFF;
+}
+.title{
+    font-family: "Risque";
+    font-size: 2.4em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 50px;
+}
+.traitB{
+    width: 100%;
+    height: 10px;
+    background: #0D8072;
+}
+#aboutMe #containerAboutMe{
+    width: 100%;
+    height: 435px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#aboutMe .cardPartAboutMe{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background: #1A809D;
+    border: 1px solid #65A8D6;
+    box-sizing: border-box;
+    border-radius: 35px;
+    margin:0px 20px 0px 20px;
+    box-shadow: 1px 3px 3px rgb(69, 80, 198);
+}
+#aboutMe .cardBodyPartAboutMe{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    grid-gap: 10px;
+}
+#aboutMe .cardHeadPartAboutMe a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    text-transform: capitalize;
+    background-color: #0f404e;
+    border-radius: 35px 35px 0px 0px;
+    font-size: 1.4em;
+    color: white;
+}
+#aboutMe .cardDescriptionPartAboutMe p{
+    height : 200px;
+    font-size: 1.1em;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+    text-align: center;
+}
+#aboutMe .cardButtonPartAboutMe{
+    padding: 0px 30px;
+}
+#aboutMe .cardButtonPartAboutMe a{
+    height: 45px;
+    font-size: 1.1em;
+    color: white;
+    background: #1BA2C8;
+    border-radius: 30px;
+    border: 1px solid #62B3EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#aboutMe .cardButtonPartAboutMe:hover a{
+    background: #0e4757;
+    text-decoration:underline;
+}
+/******************** FIN A PROPOS DE MOI ******************/
+/******************** DEBUT EXEPERIENCE ********************/
+#experience{
+    padding-top: 63px;
+    height: 1100px;
+    background: url(../images/sky.jpg) no-repeat ;
+    background-size: cover;
+}
+/******************** DEBUT PARCOURS ********************/
+#parcours .header,#projets .header, #contact .header {
+    width: 100%;
+    height: 100px;
+    padding: 20px 0px;
+}
+#parcours .header .h2,#projets .header .h2, #contact .header .h2{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 70px;
+    text-decoration: underline;
+}
+#parcours .header .p, #contact .header .p{
+    font-size: 1.3em;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 70px;
+}
+
+/**DEBUT FRISE**/
+.timelineContainer{
+    display: flex;
+    width: 80%;
+    height: 280px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #145567;
+}
+.timelineContainer .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+.timelineContainer .timeline-step:not(:last-child):after {
+    content: "";
+    display: block;
+    border-top: .25rem dotted #3b82f6;
+    width: 5.46rem;
+    position: absolute;
+    left: 7.5rem;
+    top: .3125rem
+}
+.timelineContainer .timeline-step:not(:first-child):before {
+    content: "";
+    display: block;
+    border-top: .25rem dotted #3b82f6;
+    width: 5.8125rem;
+    position: absolute;
+    right: 7.5rem;
+    top: .3125rem
+}
+
+
+.timelineContainer .timeline-content {
+    width: 12rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timelineContainer .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #031622;
+}
+
+.timelineContainer .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #2287ed;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+.timelineContainer .date{
+    font-size: 1.2em;
+    color: white;
+    font-weight: 400;
+    padding-top: 15px;
+    margin:15px 0 20px 0;
+}
+.timelineContainer .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    width: 160px;
+    height: 110px;
+    padding: 0 10px;
+    background: #1A809D;
+    border: 1px solid #65A8D6;
+    border-radius: 35px;
+}
+#plusParcours:hover{
+    text-decoration: underline;
+}
+/**FIN FRISE**/
+
+/******************** FIN PARCOURS ********************/
+/******************** DEBUT PROJETS ********************/
+#projets .header .p{
+    font-size: 1.3em;
+    color: white;
+    padding: 10px 0px 10px 70px;
+}
+/* Carrousel */
+#bodyCarrousel{
+    width: 80%;
+    height: 310px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #184C6F ;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 0 0 14px rgba(0, 0 , 0, 0.3);
+    border-radius: 15px;
+}
+#projets #carrousel{
+    border-radius: 15px;
+
+    background: #184C6F ;
+    position: relative;
+    overflow: hidden;
+}
+#containerCarrousel{
+    width: 980px;
+    height: 280px;
+    display: flex;
+}
+.containerCard{
+    width: 450px;
+    height: 280px;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    display: inline-block;
+    background-size: cover;
+}
+.bouton{
+    position: absolute;
+    width: 120px;
+    cursor: pointer;
+    top: 80px;
+    filter: invert(100%);
+}
+#g{
+    right: 0;
+    opacity: 0.4;
+    transform: rotate(270deg);
+    transition: all 0.3s ease;
+}
+#d{
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+}
+#g:hover{
+    transform: rotate(270deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+#d:hover{
+    transform: rotate(90deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+/* Formation carrousel cartes */
+.card{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #306588;
+    border: 1px solid #65A8D6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin:0px 10px 0px 15px;
+}
+.cardBody{
+    padding: 10px ;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    grid-gap: 10px;
+}
+.cardHead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardIcons img{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.cardTitle h2{
+    line-height: 1.3;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    display: block;
+    margin-right: 50px;
+}
+.cardDescription p{
+    width: 353px;
+    height : 93px;
+    font-size: 1.3em;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardDescription a{
+    color: white;
+}
+.cardFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardButton{
+    width: 350px;
+    height: 45px;
+    background: #104263;
+    border-radius: 30px;
+    border: 1px solid #62B3EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardButton a{
+    font-size: 1.3em;
+    line-height: 30px;
+    color: white;
+}
+.cardButton:hover{
+    background: #1d5a83;
+}
+p.plusProjet{
+    font-family: Rochester;
+    font-size: 2em;
+    text-align: center;
+}
+p.plusProjet:hover{
+    text-decoration: underline;
+}
+/* FIN CAROUSEL */
+/******************** FIN PROJETS ********************/
+/******************** FIN EXPERIENCE ********************/
+
+/******************** DEBUT CONTACT ********************/
+#contact{
+    padding-top: 63px;
+    height: 1300px;
+    background: url(../images/sky.jpg) no-repeat ;
+    background-size: cover;
+}
+#contact .header{
+    height: 170px;
+}
+#contact .header  button{
+    display: block;
+    width: 250px;
+    height: 50px;
+
+    font-size: 1em;
+    color:white;
+
+    background-color: #1c5880;
+    margin: 10px auto;
+    border: 0.5px solid white;
+    border-radius: 15px;
+}
+#contact .header  button:hover{
+    background-color: #2c79ac;
+}
+
+/******************** DEBUT FORMULAIRE CONTACT ********************/
+#formulaire{
+    height: 550px;
+    visibility: hidden;
+    /* display: none; */
+}
+#formulaire form{
+    width:500px;
+    height: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+#formulaire h2{
+    padding: 20px 0px;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+#formulaire label{
+    color: rgb(69, 66, 66);
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+#formulaire input[type="text"]{
+    width: 100%;
+    height: 35px;
+	outline: none;
+    margin: 5px 0px 20px 0px;
+    background-color: transparent;
+    border-top: 0px ;
+    border-right: 0px ;
+    border-left: 0px ;
+    border-bottom: 1px solid white;
+    font-family: "Montserrat";
+
+}
+#formulaire input::placeholder{
+    color: white;
+    font-size: 1em;
+}
+#formulaire input{
+    color: white;
+    font-size: 1em;
+}
+#formulaire textarea::placeholder{
+    color: white;
+    font-size: 1em;
+}
+#formulaire textarea{
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    margin: 15px 0 15px 0;
+    border-top: 1px solid white ;
+    border-right: 0px ;
+    border-left: 0px ;
+    border-bottom: 1px solid white;
+    font-family: "Montserrat";
+}
+#formulaire div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+}
+#formulaire button{
+    border-radius: 10px;
+    color: white;
+    font-size:1.1em;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width : 200px;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+#formulaire .btn{
+	background-color: #4caf50;
+}
+#formulaire .btnCancel{
+	background-color: red;
+}
+#formulaire .btn:hover{
+	background-color: #3e8c40;
+}
+#formulaire .btnCancel:hover{
+	background-color: rgb(166, 21, 21);
+}
+/******************** FIN FORMULAIRE CONTACT **********************/
+/******************** DEBUT MOYEN CONTACT ********************/
+#spaceContact{
+    width:87%;
+    height: 320px;
+    margin : 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#titleContact h2{
+    font-size: 2em;
+    color: white;
+    font-weight: 0;
+    text-transform: capitalize;
+    padding: 30px 0px 10px 70px;
+}
+.contactMethod{
+    width: 230px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0f7a9b;
+    border: 1px solid #65A8D6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin:0px 40px 0px 40px;
+    box-shadow: 0 0 14px rgba(0, 0 , 0, 0.3);
+}
+.contactMethodIcon #discord{
+    width: 80px;
+    height: 60px;
+}
+.contactMethodIcon #email{
+    width: 70px;
+    height: 70px;
+}
+.contactMethodIcon{
+    padding-bottom: 20px;
+}
+.contactMethodText a{
+    width: 100px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+/******************** FIN MOYEN CONTACT ********************/
+
+/******************** FIN CONTACT ********************/
+/******************** DEBUT FOOTER ********************/
+footer p{
+    height: 50px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #053745;
+    color: white;
+}
+footer a{
+    color: white;
+    padding-right: 5px;
+}
+/******************** FIN FOOTER ********************/
+
+/********************************************************************* PAGE ABOUT ME ********************************************************/
+#pAboutMe{
+    padding-top: 63px;
+    height: 5150px;
+    background: rgb(223, 204, 168);
+}
+
+#pAboutMe .traitH{
+    width: 112px;
+    height: 6px;
+    background: #37b4dd;
+}
+
+#pAboutMe .traitB{
+    width: 100%;
+    height: 10px;
+    background: #0a5f55;
+}
+
+#pAboutMe .title {
+    font-family: "Risque";
+    font-size: 2.4em;
+    text-transform: capitalize;
+    color: #1B4E5F;
+    padding: 10px 0px 10px 50px;
+}
+#pAboutMe article{
+    width: 80%;
+    margin: 80px auto;
+    padding: 10px 30px 30px 30px;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#pAboutMe #bio{
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+#pAboutMe .headerAboutMe{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+#pAboutMe .headerAboutMe h2{
+    margin: 0 20px;
+}
+#pAboutMe .headerAboutMe img{
+    width: 35px;
+    height: 35px;
+}
+#pAboutMe .title2 {
+    font-family: "Risque";
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #1B4E5F;
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+#pAboutMe #bio #content{
+    width: 700px;
+    margin: 0 auto;
+
+}
+#pAboutMe #bio #content img{
+    width: 320px;
+    height: 320px;
+    margin: 10px 10px 10px 20px;
+    float: right;
+}
+
+#pAboutMe #competence{
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#pAboutMe #competence > p{
+    font-size: 1.1em;
+    margin: 0px 0px 20px 15px;
+}
+
+#pAboutMe #competence #tech, #pAboutMe #competence #langue, #pAboutMe #competence #outil, #pAboutMe #competence #qualite{
+    margin: 50px 15px;
+    padding: 20px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    background-color: rgb(231, 169, 53);
+}
+
+#pAboutMe .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+#pAboutMe .header img{
+    width: 35px;
+    height: 35px;
+}
+#pAboutMe #competence #tech .header img{
+    filter: invert(100%);
+}
+#pAboutMe #competence .title3{
+    text-align: center;
+    color: white;
+    font-size: 1.6em;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+#pAboutMe #competence .labelProgress p{
+    font-size: 1em;
+    color: white;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+#pAboutMe #competence #qualite ul img{
+    width: 15px;
+    height: 15px;
+}
+
+#pAboutMe #loisir{
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+#pAboutMe #loisir table{
+    text-align: center;
+    background-color: #E7A935;
+}
+#pAboutMe #loisir #detailsL{
+    height: 930px;
+    margin: 50px 0;
+}
+#pAboutMe #loisir #detailsL #manga{
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    margin: 50px 0px;
+
+}
+#pAboutMe #loisir #detailsL h3{
+    font-family: "Montserrat";
+    font-size: 1.6em;
+    color: #09252e;
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+#pAboutMe #loisir #detailsL .containerDetailsL{
+   display: flex;
+}
+#pAboutMe #loisir #detailsL .containerDetailsL .itemDL{
+    width: 400px;
+    height: 300px;
+    margin: 25px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#pAboutMe #loisir #detailsL .containerDetailsL .itemDL p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 20px 0;
+}
+#pAboutMe #loisir #detailsL .containerDetailsL .itemDL {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#pAboutMe #loisir #detailsL .containerDetailsL .song {
+    border-radius: 15px;
+    border: 1px white solid;
+}
+#pAboutMe #loisir #detailsL #musique{
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    margin: 50px 0px;
+
+}
+#pAboutMe #loisir #detailsL #musique .containerDetailsL .itemDL h4{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+#pAboutMe #loisir #detailsL #musique .containerDetailsL .itemDL p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 15px 0;
+}
+/********************************************************************* FIN PAGE ABOUT ME ****************************************************/
+/********************************************************************* PAGE EXPERIENCE ********************************************************/
+#pExp{
+    padding-top: 80px;
+    height: 6100px;
+    background: rgb(131, 190, 226);
+}
+#pExp .traitH{
+    width: 112px;
+    height: 6px;
+    background: #37b4dd;
+}
+
+#pExp .traitB{
+    width: 100%;
+    height: 10px;
+    background: #0a5f55;
+}
+
+#pExp .title {
+    font-family: "Risque";
+    font-size: 2.4em;
+    text-transform: capitalize;
+    color: #1B4E5F;
+    padding: 10px 0px 10px 50px;
+}
+#pExp article{
+    width: 80%;
+    margin: 80px auto;
+    padding: 10px 30px 30px 30px;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+/******************************************* PARCOURS *****************************************/
+#pExp #parcours{
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+#pExp .headerAboutMe{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+#pExp .headerAboutMe h2{
+    margin: 0 20px;
+}
+#pExp .headerAboutMe img{
+    width: 35px;
+    height: 35px;
+}
+#pExp .title2 {
+    font-family: "Risque";
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #1B4E5F;
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+#pExp #plusP .headerAboutMe{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#pExp .title3 {
+    font-family: "Montserrat";
+    font-size: 1.6em;
+    color: #09252e;
+    padding: 40px 0px;
+    text-decoration: underline;
+}
+
+#pExp #plusP #parcoursD .itemParcoursD{
+    width: 90%;
+    margin: 0 auto;
+
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#pExp #plusP #parcoursD .date{
+    width: 100px;
+    padding: 10px 0;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(66, 62, 62);
+    font-weight: 800;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#pExp #plusP #parcoursD .text{
+    width: 80%;
+    padding: 20px 10px;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/******************************************* FIN PARCOURS *****************************************/
+/******************************************* DEBUT PROJETS ****************************************/
+#pExp #projet{
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+#pExp .headerAboutMe{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+#pExp .headerAboutMe h2{
+    margin: 0 20px;
+}
+#pExp .headerAboutMe img{
+    width: 35px;
+    height: 35px;
+}
+#pExp .title2 {
+    font-family: "Risque";
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #1B4E5F;
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+#pExp #plusProjets .headerAboutMe{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px 0px 10px 0;
+}
+#pExp .title3 {
+    font-family: "Montserrat";
+    font-size: 1.6em;
+    color: #09252e;
+    text-decoration: underline;
+}
+/* Carrousel */
+#pExp #bodyCarrousel{
+    width: 100%;
+    height: 310px;;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #184C6F ;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 0 0 14px rgba(0, 0 , 0, 0.3);
+    border-radius: 15px;;
+}
+#pExp #carrousel{
+    border-radius: 15px;
+
+    background: #184C6F ;
+    position: relative;
+    overflow: hidden;
+}
+#pExp #containerCarrousel{
+    width: 980px;
+    height: 280px;
+    display: flex;
+}
+
+#pExp #g{
+    right: 0;
+    opacity: 0.4;
+    transform: rotate(270deg);
+    transition: all 0.3s ease;
+}
+#pExp #d{
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+}
+#pExp #g:hover{
+    transform: rotate(270deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+#pExp #d:hover{
+    transform: rotate(90deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+/* Fin carrousel */
+/* Debut slider */
+.slider{
+    width: 470px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 0 14px rgba(0, 0 , 0, 0.3);
+}
+.slides{
+    width: calc(500px * 3);
+    animation: glisse 15s infinite;
+}
+.slide img{
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+
+/* Animation sliders */
+@keyframes glisse {
+    0% {
+        transform: translate(0);
+    }
+    10%{
+        transform: translate(0);
+    }
+    25% {
+        transform: translate(-500px);
+    }
+    35%{
+        transform: translate(-500px);
+    }
+    50% {
+        transform: translate(-1000px);
+    }
+    60%{
+        transform: translate(-1000px);
+    }
+    75%{
+        transform: translate(-1000px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+/* Fin slider */
+
+#pExp #plusProjets .catProjet .itemCat{
+    padding: 20px 10px;
+    margin: 20px 0px;
+} 
+#pExp #plusProjets .catProjet .itemCat h4{
+    font-family: "Montserrat";
+    font-size: 1.6em;
+    color: #09252e;
+    padding: 30px 20px;
+    text-decoration: underline;
+} 
+
+#pExp #plusProjets .catProjet .itemCat .containerItemCatItem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#pExp #plusProjets .catProjet .itemCat .containerItemCatItem .itemCatItem{
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 20px 10px 0px 15px;
+    background-color: rgb(88, 204, 243);
+}
+#pExp #plusProjets .catProjet .itemCat .containerItemCatItem .itemCatItem .itemCatItemBody{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    grid-gap: 20px;
+}
+
+#pExp #plusProjets .catProjet .itemCat .containerItemCatItem .itemCatItem .headerItemCatItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+#pExp #plusProjets .catProjet .itemCat .containerItemCatItem .itemCatItem .headerItemCatItem p {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #09252e;
+}
+#pExp #plusProjets .catProjet .itemCat .containerItemCatItem .itemCatItem .dateItemCatItem p {
+    font-size: 1.1em;
+    color: #09252e;
+    font-style: oblique;
+}
+#pExp #plusProjets .catProjet .itemCat .containerItemCatItem .itemCatItem .langItemCatItem p {
+    font-size: 1.1em;
+    color: #09252e;
+}
+#pExp #plusProjets .catProjet .itemCat .containerItemCatItem .itemCatItem .descriptionItemCatItem p {
+    font-size: 1.1em;
+    color: #09252e;
+}
+/******************************************* FIN PROJETS ****************************************/
+/********************************************************************* FIN EXPERIENCE ********************************************************/
+/********************************************************************* DEBUT CV **************************************************************/
+#pExp #cv{
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+    height: 130px;
+}
+
+#pExp #cv a{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#pExp #cv a:hover{
+    text-decoration: underline;
+}
+
+/********************************************************************* FIN CV ***************************************************************/
+/********************************************************************* DEBUT Livre d'or *****************************************************/
+#livreOr{
+    width: 100%;
+    height: 1300px;
+    padding-top: 80px;;
+    margin: 0 auto;
+    background-color: rgb(155, 205, 224);
+}
+#livreOr #form{
+    display: none;
+}
+#livreOr #Button{
+    font-family: "Montserrat";
+    display: block;
+    border-radius: 10px;
+    color: black;
+    font-size: 1.1em;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin: 20px auto;
+}
+#livreOr > #Button:hover{
+    text-decoration: underline;
+}
+#livreOr form{
+    padding: 0 50px;
+}
+#livreOr h1{
+    font-family: "Risque";
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 20px 0;
+}
+#livreOr label{
+    color: rgb(69, 66, 66);
+    font-size: 1em;
+    text-transform: uppercase;
+}
+#livreOr input[type="text"]{
+    width: 100%;
+    height: 35px;
+	outline: none;
+    margin: 5px 0px 20px 0px;
+    background-color: transparent;
+    border-top: 0px ;
+    border-right: 0px ;
+    border-left: 0px ;
+    border-bottom: 1px solid white;
+    font-family: "Montserrat";
+
+}
+#livreOr input::placeholder{
+    font-size: 1em;
+}
+#livreOr input{
+    font-size: 1em;
+}
+#livreOr #radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 0 20px 0;
+}
+#livreOr #radio label{
+    margin : 0 15px;
+}
+#livreOr #check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 0 20px 0;
+}
+#livreOr #check label{
+    margin : 0 15px;
+}
+#livreOr textarea::placeholder{
+    font-size: 1em;
+}
+#livreOr textarea{
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    color: black;
+    font-size: 1em;
+    margin: 5px 0 15px 0;
+    border-top: 1px solid white;
+    border-right: 0px ;
+    border-left: 0px ;
+    border-bottom: 1px solid white;
+    font-family: "Montserrat";
+}
+#livreOr #footerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#livreOr button{
+    border-radius: 10px;
+    color: white;
+    font-size:1.1em;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width : 200px;
+	margin: 20px 10px;
+	opacity: 0.8;
+}
+#livreOr .btn{
+	background-color: #4caf50;
+}
+#livreOr .btnCancel{
+	background-color: red;
+}
+#livreOr .btn:hover{
+	background-color: #3e8c40;
+}
+#livreOr .btnCancel:hover{
+	background-color: rgb(166, 21, 21);
+}
+/********************************************************************* FIN Livre d'or *******************************************************/

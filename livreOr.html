@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+	
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="Namodacane Kaliamoorthy" />
+        <meta name="description" content="Ce site web est un E-Portfolio, on peut y retrouver ma biographie, mes compétences, mes loisirs, mon parcours professionnels, mes différents projets terminés et mon CV. Vous pouvez aussi me contacter." />
+
+        <title>Livre d'Or</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+        <link rel="stylesheet" type="text/css" href="css_bs/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/stylel.css">
+        <link rel="stylesheet" type="text/css" href="css/styleh.css">
+    </head>
+
+    <body>
+        <header>
+            <!------------------------------------------------------ CREATION DE LA NAVBAR ----------------------------------------------------------->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Mon E-Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html" >Accueil</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#aboutMe" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    A propos de moi
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pageAboutMe.html#pAboutMe">Biographie</a></li>
+                                <li><a class="dropdown-item" href="pageAboutMe.html#comp2">Competences</a></li>
+                                <li><a class="dropdown-item" href="pageAboutMe.html#lois2">Loisirs</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#experience" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mes Expériences
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pageExperience.html#pExp">Mon parcours</a></li>
+                                <li><a class="dropdown-item" href="pageExperience.html#proj2">Mes projets</a></li>
+                                <li><a class="dropdown-item" href="pageExperience.html#cv2">Mon CV</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item" id="separation">
+                                
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="livreOr.html">Livre d'or</a>
+                            </li>
+                            
+                        </ul>
+                  </div>
+                </div>
+            </nav>
+            <!--------------------------------------------------------- FIN DE LA NAVBAR -------------------------------------------------------------->
+            
+        </header>
+        <section id="livreOr">
+                
+            <button id="Button" onmouseover="openForm()"> Ouvrir le Livre d'or </button>
+            
+            <h1>Livre d'or</h1>
+            <div id="form">
+
+                <form action="index.html">
+                    <fieldset>
+                        <legend>Coordonnées</legend><br>
+                        <label for="labelNom" class="labelText">Nom : </label><br><input type="text" name="nom" id="labelNom" placeholder="Votre Nom" size="40" required><br><br>
+                        <label for="labelPrenom" class="labelText">Prénom : </label><br><input type="text" name="prenom" id="labelPrenom" placeholder="Votre Prenom" size="40" required><br><br>
+                        <label for="labelEmail" class="labelText">Email : </label><br><input type="text" name="email" id="labelEmail" placeholder="Votre adresse mail" size="40" required><br><br>
+                    </fieldset><br>
+                    <fieldset>
+                    <legend>Renseignements</legend><br>
+    
+                    <label for="">Vous êtes : </label><br><br>
+                    <div id="radio">
+                        <label for="labelEleve">Elève </label><input type="radio" name="role" id="labelEleve" value="eleve" class="labelRadio">
+                        <label for="labelProfesseur">Professeur </label><input type="radio" name="role" id="labelProfesseur" value="professeur" class="labelRadio">
+                        <label for="labelAutre">Autre </label><input type="radio" name="role" id="labelAutre" value="autre" class="labelRadio"><br><br>
+                    </div>
+    
+                    <label for="">Qu'avez-vous aimé sur mon site : </label><br><br>
+                    <div id="check">
+                        <label for="labelNavBar" class="labelCheck">La navbar </label><input type="checkbox" name="interesseParNavBar" value="1" id="labelNavBar"><br>
+                        <label for="labelContenue" class="labelCheck">Le contenu </label><input type="checkbox" name="interesseParContenue" value="1" id="labelContenue"><br>
+                        <label for="labelCouleur" class="labelCheck">Les couleurs </label><input type="checkbox" name="interesseParCouleur" value="1" id="labelCouleur"><br>
+                        <label for="labelTout" class="labelCheck">Tout </label><input type="checkbox" name="interesseParTout" value="1" id="labelTout"><br><br>
+                        <label for="labelAutre" class="labelCheck">Autre </label><input type="checkbox" name="interesseParTout" value="1" id="labelAutre"><br><br>
+                    </div>
+    
+                    <label for="">Vous pouvez entrer un commentaire : </label><br><br>
+                    <label for="labelComment"><textarea name="comment" id="labelComment" placeholder="Votre commentaire" cols="80" rows="5" required></textarea></label>
+                    </fieldset><br>
+                    <fieldset>
+                        <div id="footerBtn">
+                            <button class="btn" type="submit"> Envoyer </button>
+                            <button class="btnCancel" type="button" onmouseover="closeForm()"> Annuler </button>
+                        </div>
+                        
+                    </fieldset>
+                </form><br>    
+            </div>        
+        </section>
+
+        <script>
+            function openForm(){
+                document.getElementById("form").style.display="block";
+            }
+            
+            function closeForm(){
+                document.getElementById("form").style.display="none";
+            }
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	    
+    </body>
+</html>

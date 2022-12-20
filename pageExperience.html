@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="Namodacane Kaliamoorthy" />
+        <meta name="description" content="Ce site web est un E-Portfolio, on peut y retrouver ma biographie, mes compétences, mes loisirs, mon parcours professionnels, mes différents projets terminés et mon CV. Vous pouvez aussi me contacter." />
+
+        <title>Mes expériences</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+        <link rel="stylesheet" type="text/css" href="css_bs/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/stylel.css">
+        <link rel="stylesheet" type="text/css" href="css/styleh.css">
+    </head>
+    <body>
+        <!---------------------------------------------------------- CREATION DE L'ENTETE ------------------------------------------------------------>
+        <header>
+            <!------------------------------------------------------ CREATION DE LA NAVBAR ----------------------------------------------------------->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Mon E-Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html" >Accueil</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#aboutMe" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    A propos de moi
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pageAboutMe.html#pAboutMe">Biographie</a></li>
+                                <li><a class="dropdown-item" href="pageAboutMe.html#comp2">Competences</a></li>
+                                <li><a class="dropdown-item" href="pageAboutMe.html#lois2">Loisirs</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#experience" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mes Expériences
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pageExperience.html#pExp">Mon parcours</a></li>
+                                <li><a class="dropdown-item" href="pageExperience.html#proj2">Mes projets</a></li>
+                                <li><a class="dropdown-item" href="pageExperience.html#cv2">Mon CV</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item" id="separation">
+                                
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="livreOr.html">Livre d'or</a>
+                            </li>
+                            
+                        </ul>
+                  </div>
+                </div>
+            </nav>
+            <!--------------------------------------------------------- FIN DE LA NAVBAR -------------------------------------------------------------->
+            <!---------------------------------------------------------- LANDING PAGE ----------------------------------------------------------------->
+            <div id="landingPage">
+                <h1>Si vous êtes sur cette page,<br> vous voulez savoir quelles sont mes expériences professionnelles. <br><br>Decouvrez tous mes secrets ici</h1>
+                <p>La réussite c’est la victoire de l’avoir fait soi-même</p>
+                <div class="footerPart">
+                    <div><p><a href="#pExp">Cliquez ici</a></p></div>
+                    <div><a href="#pExp"><img src="images/fleche.png" alt="fleche bas"></a></div>
+                </div>
+            </div>
+            <!---------------------------------------------------------- FIN LANDING PAGE ------------------------------------------------------------->
+        </header>   
+        <!----------------------------------------------------- FIN DE L'ENTETE ------------------------------------------------------------------->
+        <section id="pExp">
+
+            <div class="traitH"></div>
+            <h1 class="title">Mes Expériences</h1>
+            <div class="traitB"></div>
+
+            <!----------------------------------------------------- DEBUT PARCOURS ----------------------------------------------------------------->
+            <article id="parcours">
+
+                <div class="headerAboutMe">
+                    <img src="images/periple.png" alt="parcours">
+                    <h2 class="title2">Mon parcours</h2>
+                </div>
+
+                <div class="timelineContainer">
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2018-2019</p>
+                            <p class="text">Classe de troisième<br>J'ai eu mon brevet des collèges avec mention très bien.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2019-2020</p>
+                            <p class="text">Classe de Seconde GT: Decouverte de ma passion pour l'informatique</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2020-2021</p>
+                            <p class="text">Classe de 1er STI2D<br>Apprentissage des bases de l'algorithmie</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2020-2021</p>
+                            <p class="text">Premier pas dans l'informatique : Creation d'app et site web</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2021-2022</p>
+                            <p class="text">Classe Tle STI2D<br>Création de plusieurs site web et de mini-jeux.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2021-2022</p>
+                            <p class="text">J'ai eu mon Bac sti2d mention très bien<br>Création de plusieurs site web et plus </p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2022-2023</p>
+                            <p class="text">Première BUT INFO<br>Découverte en profondeur de l'informatique</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step mb-0">
+                        <div class="timeline-content">
+                            <div class="inner-circle"></div>
+                            <p class="date">2022-2023</p>
+                            <a href="#plusP"><p class="text" id="plusParcours">En savoir plus.<br>Plus de détails ici.</p></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="plusP">
+                    <div class="headerAboutMe">
+                        <img src="images/parcours-client.png" alt="parcours">
+                        <h2 class="title3">Mon parcours en détail</h2>
+                    </div>
+
+                    <div id="parcoursD">
+                        <div class="itemParcoursD">
+                            <p class="date">2018-2019</p>
+                            <p class="text">Je suis en classe de troisième. 
+                                J’ai eu mon brevet des collèges avec une mention très bien. 
+                                Je commence à réfléchir à mon orientation. 
+                                Je penche pour la voie informatique.
+                            </p>
+                        </div>
+                        
+                        <div class="itemParcoursD">
+                            <p class="date">2019-2020</p>
+                            <p class="text">
+                                Je suis en classe de Seconde Generale et Technologique.
+                                 Je découvre ma passion pour l’informatique en classe de SNT science du numérique et technologique. 
+                                 J’ai fait mon premier site internet.
+                            </p>
+                        </div>
+                        
+                        
+                        <div class="itemParcoursD">
+                            <p class="date">2020-2021</p>
+                            <p class="text">Je suis en classe de première STI2D. J’apprend les bases de l’algorithmie, de réseau, de la programmation mais aussi du développement web avec le meilleur professeur de SIN, Etienne Bertinchamps.
+                                Je fais mes premiers pas dans l’informatique. Je crée mon premier programme, une application de gestion de feux rouges sous Flowcode.
+                                Je crée mon premier site web statique fonctionnel.
+                            </p>
+                        </div>
+                        
+                        
+                        <div class="itemParcoursD">
+                            <p class="date">2021-2022</p>
+                            <p class="text">Je suis en classe de terminale STI2D. J’apprend la programmation orienté objet avec Processing. Je créé mes premiers mini-jeux. J’ai fait de l’Arduino. On a assemblé Arduino et Processing. J’ai fait ma première application de domotique.
+                                Durant cette année, j’ai fait plusieurs site internet voire partie Projets, durant mes temps de pause.
+                                J’apprends le langage PHP avec un peu de MySQL. Je crée mon premier site dynamique.
+                                Pendant les grandes vacances, je fais plusieurs sites dynamiques.
+                            </p>
+                        </div>
+                        
+                        
+                        <div class="itemParcoursD">
+                            <p class="date">2022-2023</p>
+                            <p class="text">Je rentre à L’IUT de Paris en BUT informatique. Je découverte les bases de l’informatique en profondeur. 
+                                Je fais mes premiers programmes en C. J’apprend le langage SQL en profondeur. J’apprends aussi le Javascript.
+                                Je commence à faire des sites internet chez moi et faire quelques programmes en C.
+                                Je continue d’apprendre de plus en plus dans le domaine de <span id="proj2">l'informatique</span>.
+                            </p>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            
+            </article>
+            <!----------------------------------------------------- FIN PARCOURS -------------------------------------------------------------------->
+            <!----------------------------------------------------- DEBUT PROJETS ------------------------------------------------------------------->
+            <article id="projet">
+                <div class="headerAboutMe">
+                    <img src="images/projects.png" alt="projets">
+                    <h2 class="title2">Mes Projets</h2>
+                </div>
+
+                <div id="bodyCarrousel">
+                    <div id="carrousel">
+                        <div id="containerCarrousel">
+                            <div class="containerCard">
+                                <div class="card">
+                                    <div class="cardBody">
+                                        <div class="cardHead">
+                                            <div class="cardIcons"><a href="#proj2"><img src="images/htmlCssColored-logo.png" alt="logo"></a></div>
+                                            <div class="cardTitle"><a href="#proj2"><h2>Namformatic</h2></a></div>
+                                        </div>
+                                        <div class="cardDescription">
+                                            <p>Le site Namformatic a été créé lors de mes grandes vacances. <br> Ce site est une de mes...</p>
+                                        </div>
+                                        <div class="cardFooter">
+                                            <div class="cardButton">
+                                                <a href="#proj2">En savoir plus</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="containerCard">
+                                <div class="card">
+                                    <div class="cardBody">
+                                        <div class="cardHead">
+                                                <div class="cardIcons"><a href="#proj2"><img src="images/php-logo.png" alt="php"></a></div>
+                                                <div class="cardTitle"><a href="#proj2"><h2>La Todo list NK</h2></a></div>
+                                        </div>
+                                        <div class="cardDescription">
+                                                <p>Le site La Todo list NK a été créé pendant mes pauses de l'année de terminale...</p>
+                                        </div>
+                                        <div class="cardFooter">
+                                                <div class="cardButton">
+                                                    <a href="#proj2">En savoir plus</a>
+                                                </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="containerCard">
+                                <div class="card">
+                                    <div class="cardBody">
+                                        <div class="cardHead">
+                                                <div class="cardIcons"><a href="#proj2"><img src="images/java-logo.png" alt="html"></a></div>
+                                                <div class="cardTitle"><a href="#proj2"><h2>Le Morpion</h2></a></div>
+                                        </div>
+                                        <div class="cardDescription">
+                                                <p>Le Morpion a été créé aussi dans mon année de terminale durant mon temps libre...</p>
+                                        </div>
+                                        <div class="cardFooter">
+                                                <div class="cardButton">
+                                                    <a href="#proj2">En savoir plus</a>
+                                                </div>
+                                        </div> 
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="containerCard">
+                                <div class="card">
+                                    <div class="cardBody">
+                                        <div class="cardDescription">
+                                                <p class="plusProjet"><a href="#proj2">Decouvrir tous les projets créés plus en détail avec leurs aperçus </a></p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+        
+                        <img src="images/fleche.png" class="bouton" id="d">
+                        <img src="images/fleche.png" class="bouton" id="g">
+                    </div>
+                </div>
+                    <!-- Script JS pour le carrousel -->
+                    <script>
+                        document.body.onload=function(){
+                            nbr=4;
+                            p=0;
+                            container=document.getElementById("containerCarrousel");
+                            g=document.getElementById("g");
+                            d=document.getElementById("d");
+                            container.style.width=(440*nbr)+"px";
+                            afficherMasquer();
+                        }
+                        g.onclick=function(){
+                            if(p>-nbr+1)
+                            p--;
+                            container.style.transform="translate("+p*440+"px)";
+                            container.style.transition="all 0.5s ease";
+                            afficherMasquer();
+                        }
+                        d.onclick=function(){
+                            if(p<0)
+                            p++;
+                            container.style.transform="translate("+p*440+"px)";
+                            container.style.transition="all 0.5s ease";
+                            afficherMasquer();
+                        }
+                        function afficherMasquer(){
+                            if(p==-nbr+1)
+                                g.style.visibility="hidden";
+                            else
+                                g.style.visibility="visible";
+                            if(p==0)
+                                d.style.visibility="hidden";
+                            else
+                                d.style.visibility="visible";
+                        }
+                    </script>
+
+                    <div id="plusProjets">
+                        <div class="headerAboutMe">
+                            <img src="images/projet.png" alt="projet">
+                            <h2 class="title3">Mes projets en détail</h2>
+                        </div>
+
+                        <div class="catProjet"> <!--Cat pour catégorie-->
+                            <div class="itemCat web">
+                                <h4>Mes projets orientés web</h4>
+
+                                <div class="slider">
+                                    <div class="slides">            
+                                        <div class="slide"><img src="projets/images/Namformatic.png"></div>
+                                        <div class="slide"><img src="projets/images/todolistMiniature.png"></div>
+                                        <div class="slide"><img src="projets/images/php1.png"></div>
+                                    </div>
+                                </div>
+
+                                <div class="containerItemCatItem">
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p>NAMFORMATIC</p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2022</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> HTML / CSS</p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    Namformatic est un site internet créé pour proposer des formations en informatique.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p>TO DO LIST NK</p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2022</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> HTML / CSS / PHP</p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    La TO DO LIST NK est un site pour organiser ses tâches.
+                                                </p>                                     
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p>Nature Emoi</p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2021</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> HTML / CSS</p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    Nature Emoi est un site pour acheter des plantes.
+                                                </p>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p>Maison d’hôte</p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2021</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> HTML / CSS</p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    Maison d’hôte est un site de réservation de chambre.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p><a href="projets/Horloge/index.html">Horloge</a></p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2022</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> HTML / CSS / JavaScript</p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    Site créé lors de mon apprentissage du langage JavaScript. C’est une horloge mécanique.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="itemCat programmation">
+                                <h4>Mes projets orientés programmation</h4>
+
+                                <div class="slider">
+                                    <div class="slides">            
+                                        <div class="slide"><img src="projets/images/morpion.png"></div>
+                                        <div class="slide"><img src="projets/images/domotique.png"></div>
+                                        <div class="slide"><img src="projets/images/flowcode.png"></div>
+                                    </div>
+                                </div>
+
+                                <div class="containerItemCatItem">
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p>Morpion</p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2022</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> Processing (Java)</p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    Le morpion est un mini-jeu que j’ai créé après avoir appris la programmation orienté objet (POO).
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p>Domotique</p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2022</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> Processing (Java)</p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    C’est une application créé sur Processing et Arduino, elle peut allumer le chauffage, l’éclairage et la pompe d’un aquarium.
+                                                </p>                                     
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p>Gestion de feux tricolore</p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2020</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> Flowcode</p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    J’ai réalisé une application qui reproduit le système des feux tricolores avec passages piétons.
+                                                </p>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="itemCatItem">
+                                        <div class="itemCatItemBody">
+                                            <div class="headerItemCatItem"><p>Sapin</p></div>
+                                            <div class="dateItemCatItem"><p><span class="souligne">Date de création :</span> 2021</p></div>
+                                            <div class="langItemCatItem"><p><span class="souligne">Langage utilisé :</span> Processing  (Java) </p></div>
+                                            <div class="descriptionItemCatItem">
+                                                <p><span class="souligne">Description :</span>
+                                                    J’ai réalisé sous Processing un programme qui crée une forêt de<span id="cv2">sapin</span>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </article>
+            <!----------------------------------------------------- FIN PARCOURS -------------------------------------------------------------------->
+            <!----------------------------------------------------- DEBUT CV ------------------------------------------------------------------------>
+            <article id="cv">
+                <div class="headerAboutMe">
+                    <img src="images/curriculums.png" alt="projets">
+                    <h2 class="title2">Mon Curriculum vitæ</h2>
+                </div>
+                <a href="docs/CV_Namodacane_Kaliamoorthy.pdf">Clique ici pour voir mon CV</a>
+            </article>
+            <!----------------------------------------------------- FIN CV -------------------------------------------------------------------------->
+        </section>
+        <!----------------------------------------------------- FIN DE LA PARTIE EXPERIENCE -------------------------------------------------->
+        <!------------------------------------------------------------- DEBUT FOOTER ------------------------------------------------------------------------------>
+        <footer>
+            <p><a href="#"> © Mon E-Portfolio</a> | 2022 - Tous droits reservés | Créé lors de mon année à l'IUT de Paris</p>
+        </footer>
+        <!------------------------------------------------------------- FIN FOOTER -------------------------------------------------------------------------------->
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	    
+    </body>
+</html>
